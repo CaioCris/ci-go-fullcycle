@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN go mod init teste
 
-COPY . .
+COPY ./sonarqube/go .
 
 RUN go build -o sum
 
