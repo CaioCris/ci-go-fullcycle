@@ -6,7 +6,7 @@ RUN go mod init teste
 
 COPY . .
 
-RUN go build -o math
+RUN go build -o sum
 
-CMD ["./math"]
+CMD ["./sum"]
 
