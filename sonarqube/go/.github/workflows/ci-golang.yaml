@@ -1,4 +1,4 @@
-name: ci-sonarcloud-golang
+name: ci-sonarcloud
 on:
   pull_request:
     branches:
